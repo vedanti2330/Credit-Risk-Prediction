@@ -1,0 +1,99 @@
+
+/* ==== General Page Styling ==== */
+body {
+    background-color: #f7f9fb;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+}
+
+/* ==== Headers ==== */
+h1, h2, h3 {
+    color: #0b5394;
+    font-weight: 600;
+}
+
+/* ==== Streamlit Main Container ==== */
+.css-18e3th9 {
+    padding: 2rem 4rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ==== Sidebar ==== */
+.css-1d391kg {
+    background-color: #0b5394 !important;
+    color: white !important;
+}
+.css-1d391kg h2, .css-1d391kg label, .css-1d391kg p {
+    color: white !important;
+}
+.css-1d391kg input, .css-1d391kg select {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border-radius: 6px !important;
+}
+
+/* ==== Metric Cards ==== */
+[data-testid="stMetricValue"] {
+    color: #0b5394;
+    font-weight: 700;
+}
+[data-testid="stMetricLabel"] {
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+/* ==== Tables ==== */
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #0b5394;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* ==== Buttons ==== */
+button, .stButton>button {
+    background-color: #0b5394;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover, .stButton>button:hover {
+    background-color: #073763;
+}
+
+/* ==== Expander Panels ==== */
+.css-1q8dd3e {
+    background-color: #eaf2fa;
+    border-left: 5px solid #0b5394;
+}
+
+/* ==== Success and Error Boxes ==== */
+.stAlert {
+    border-radius: 10px !important;
+}
+
+/* ==== Footer ==== */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #888;
+    font-size: 13px;
+}
